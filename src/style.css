@@ -1,9 +1,8 @@
 /* styles go here */
-div {
+.form__items {
   margin-top: 10px;
 }
 
-form,
-#button {
+.fields {
   margin-top: 20px;
 }
