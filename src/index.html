@@ -20,72 +20,66 @@
 
 
         <div class = "form__items">
-          <label for="Surname">
+          <label>
           Surname:
+            <input
+              type="text"
+              name="Surname"
+              required
+              autocomplete="off"
+            >
           </label>
-          <input 
-          type="text" 
-          name="Surname" 
-          id="Surname"
-          required 
-          autocomplete="off"
-        >
         </div>
 
 
         <div class = "form__items">
-          <label for="Name">
+          <label>
           Name:
+            <input
+              type="text"
+              name="Name"
+              required
+              autocomplete="off"
+            >
           </label>
-          <input 
-          type="text" 
-          name="Name"
-          id="Name" 
-          required 
-          autocomplete="off"
-        >
         </div>
 
 
         <div class = "form__items">
-          <label for="Years old">
+          <label>
           How old are you?
+            <input
+              type="number"
+              name="Years old"
+              required value="12"
+              min="1"
+              max="100"
+            >
           </label>
-          <input 
-          type="number" 
-          name="Years old"
-          id="Years old" 
-          required 
-          value="12"
-          min="1" 
-          max="100"
-        >
         </div>
 
 
         <div class = "form__items">
-          <label for="Date of birth">
+          <label>
           How old are you?
+            <input
+              type="date"
+              name="Date of birth"
+              required
+            >
           </label>
-          <input 
-          type="date" 
-          name="Date of birth"
-          id="Date of birth" 
-          required
-        >
         </div>
 
 
         <div class = "form__items">
-          <label for="Terms agreement">
+          <label>
           I accept the terms of agreement
+            <input
+              type="checkbox"
+              name="Terms agreement"
+              required
+            >
           </label>
-          <input 
-          type="checkbox" 
-          name="Terms agreement"
-          id="Terms agreement" 
-          required
-        >
         </div>
 
       </fieldset>
@@ -96,31 +90,29 @@
 
 
       <div class = "form__items">
-        <label for="Email">
+        <label>
           E-mail:
+          <input
+            type="email"
+            name="Email"
+            required
+            placeholder="email@example.com"
+            autocomplete="off"
+          >
         </label>
-        <input 
-          type="email" 
-          name="Email" 
-          id="Email"
-          required
-          placeholder="email@example.com" 
-          autocomplete="off"
-        >
       </div>
 
 
       <div class = "form__items">
-        <label for="Password">
+        <label>
           Password:
+          <input
+            type="password"
+            name="Password"
+            required
+            autocomplete="off"
+          >
         </label>
-        <input 
-          type="password" 
-          name="Password" 
-          id="Password"
-          required 
-          autocomplete="off"
-        >
       </div>
 
     </fieldset>
@@ -145,25 +137,25 @@
 
 
       <div class = "form__items">
-        <label for="What is your favorite color">
+        <label>
           What is your favorite color ?
+          <input type="color" name="Favorite color">
         </label>
-        <input type="color" name="Favorite color" id="What is your favorite color">
       </div>
 
 
       <div class = "form__items">
-        <label for="Time to bed">
+        <label>
           What time do you go to bed?
+          <input type="time" name="Time to bed">
         </label>
-        <input type="time" name="Time to bed" id="Time to bed">
       </div>
 
 
       <div class = "form__items">
-        <label for="Favorite brands of cars">
+        <label>
           What are your favorite brands of cars?
-          <select name="Favorite brand of cars" id="Favorite brands of cars" multiple>
+          <select name="Favorite brand of cars" multiple>
 
             <option value="BMW">BMW</option>
             <option value="Mercedes">Mecdedes</option>
@@ -176,10 +168,10 @@
 
 
       <div class = "form__items">
-        <label for="Work rate">
+        <label>
           How do you rate our work?
+          <input type="range" name="Work rate">
         </label>
-        <input type="range" name="Work rate" id="Work rate">
       </div>
 
     </fieldset>
@@ -189,11 +181,10 @@
       <legend>Additional info</legend>
 
       <div class = "form__items">
-        <label for="Comments">
+        <label>
           Comments:
           <textarea 
             name="Comments" 
-            id="Comments" 
             cols="15"
             rows="2" 
             autocomplete="off"
@@ -204,9 +195,9 @@
 
 
       <div class = "form__items">
-        <label for="Recomend">
+        <label>
             Would you recomend us?
-          <select name="Would you recomend us" id="Recomend">
+          <select name="Would you recomend us">
 
             <option value="Yes">Yes</option>
             <option value="No">No</option>
